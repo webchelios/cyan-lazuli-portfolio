@@ -1,4 +1,5 @@
 import { content } from "../constants/constants";
+import { router } from "../router";
 import "./Home.css";
 
 export const Home = () => {
@@ -33,6 +34,10 @@ export const Home = () => {
 	heroButton.classList.add("hero-button");
 	heroButton.href = "trabajos";
 	heroButton.textContent = "Ver trabajos";
+	heroButton.addEventListener('click', (e) => {
+		e.preventDefault()
+		router('/trabajos');
+	})
 
 	container.append(h1, heroImageContainer, heroText, heroButton);
 	return container;
