@@ -1,0 +1,18 @@
+.modal-view {
+    background-color: rgba(0, 0, 0, 0.644);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.image-big {
+    max-width: 90vw;
+    max-height: 90vh;
+    cursor: pointer;
+    object-fit: contain;
+}
