@@ -1,5 +1,5 @@
-import { firstRender } from "./App.js";
-import { router } from "./router.js";
+import { firstRender } from "./App";
+import { router } from "./router";
 
 const app = document.querySelector("#app");
 

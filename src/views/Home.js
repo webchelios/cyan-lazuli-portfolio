@@ -10,7 +10,7 @@ export const Home = () => {
 	h1.textContent = "Bienvenido 🥰";
 
 	const heroImageContainer = document.createElement("div");
-	heroImageContainer.classList.add("piece-img");
+	heroImageContainer.classList.add("hero-img");
 
 	const heroImage = document.createElement("img");
 	heroImage.setAttribute("src", "/images/ceci-vectorizada.jpg");
