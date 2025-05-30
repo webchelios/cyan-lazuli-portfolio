@@ -2,6 +2,11 @@
 	animation: appear 1s ease;
 }
 
+.home-container h1 {
+	margin-bottom: 1rem;
+}
+
+
 @keyframes appear {
 	0% {
 		opacity: 0;
@@ -37,12 +42,33 @@
 	font-weight: 500;
 }
 
+.hero-img {
+	position: relative;
+	width: 20rem;
+	margin: auto;
+}
+
 .hero-img img {
 	width: 20rem;
 	height: 20rem;
 	object-fit: cover;
 	border-radius: 100%;
 	margin: 1rem;
+
+}
+
+.hero-hand {
+	position: absolute;
+	bottom: 0rem;
+	left: 0rem;
+	font-size: 5rem;
+}
+
+.hero-hearth {
+	position: absolute;
+	top: 0rem;
+	right: -1rem;
+	font-size: 5rem;
 }
 
 @media screen and (max-width: 765px) {

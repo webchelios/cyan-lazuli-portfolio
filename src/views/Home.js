@@ -15,7 +15,15 @@ export const Home = () => {
 	const heroImage = document.createElement("img");
 	heroImage.setAttribute("src", "/images/ceci-vectorizada.jpg");
 
-	heroImageContainer.appendChild(heroImage);
+	const heroHand = document.createElement('div')
+	heroHand.classList.add('hero-hand')
+	heroHand.innerText = '👋'
+
+	const heroHearth = document.createElement('div')
+	heroHearth.classList.add('hero-hearth')
+	heroHearth.innerText = '❤️'
+
+	heroImageContainer.append(heroImage, heroHand, heroHearth);
 
 	const heroText = document.createElement("p");
 	heroText.classList.add("hero-text");
