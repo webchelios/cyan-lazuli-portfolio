@@ -46,6 +46,7 @@ nav ul {
 		border-radius: 100%;
 		font-size: 1.6rem;
 		font-weight: 700;
+		background-color: none;
 	}
 	.navbar {
 		position: relative;
@@ -62,7 +63,7 @@ nav ul {
 		text-align: center;
 		width: 100%;
 		z-index: 1000;
-		background-color: aquamarine;
+		background-color: rgb(207, 252, 255);
 	}
 	.nav-item a {
 		width: 100%;
@@ -70,7 +71,7 @@ nav ul {
 		padding: .5rem;
 	}
 	.nav-item:hover {
-		background-color: rgb(188, 251, 255);
+		background-color: rgb(164, 220, 224);
 	}
 	.active {
 		display: flex;
