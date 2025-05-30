@@ -40,7 +40,25 @@
 	text-decoration: none;
 	margin-left: 1rem;
 	font-weight: 500;
+	transition: opacity;
+	animation: atention 4s ease infinite;
 }
+
+@keyframes atention {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	60% {
+		opacity: .4;
+	}
+	50%{
+		opacity: 1;
+	}
+}
+
 
 .hero-img {
 	position: relative;
