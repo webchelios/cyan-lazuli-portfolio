@@ -73,10 +73,13 @@ nav ul {
 		height: 100%;
 		padding: .5rem;
 		border-radius: 1rem;
-		background-color: rgb(180, 233, 214);
+		background-color: rgb(204, 204, 204);
 	}
 	.nav-item a:hover {
 		background-color: rgb(187, 219, 221);
+	}
+	.nav-item a:active {
+		color: aqua;
 	}
 	.active {
 		display: flex;
