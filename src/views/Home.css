@@ -54,7 +54,7 @@
 	object-fit: cover;
 	border-radius: 100%;
 	margin: 1rem;
-
+	border: 3px solid rgb(211, 72, 211);
 }
 
 .hero-hand {
