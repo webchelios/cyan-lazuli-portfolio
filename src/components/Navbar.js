@@ -29,7 +29,7 @@ export const Navbar = () => {
 		link.addEventListener("click", (e) => {
 			e.preventDefault();
 			navList.classList.remove("active");
-			history.pushState(null, "", path.route);
+			//history.pushState(null, "", path.route);
 			router(path.route);
 		});
 
