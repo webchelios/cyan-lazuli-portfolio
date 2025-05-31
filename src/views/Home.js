@@ -32,7 +32,7 @@ export const Home = () => {
 
 	const heroButton = document.createElement("a");
 	heroButton.classList.add("hero-button");
-	heroButton.href = "trabajos";
+	// heroButton.href = "trabajos";
 	heroButton.textContent = "Ver trabajos";
 	heroButton.addEventListener('click', (e) => {
 		e.preventDefault()

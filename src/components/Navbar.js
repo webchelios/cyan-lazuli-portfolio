@@ -6,7 +6,7 @@ export const Navbar = () => {
 	nav.className = "navbar";
 
 	const logo = document.createElement("a");
-	logo.href = "/";
+	// logo.href = "/";
 	logo.className = "navbar-brand";
 	logo.textContent = "Cyan Lázuli";
 	logo.addEventListener("click", (e) => {
@@ -23,7 +23,7 @@ export const Navbar = () => {
 
 		const link = document.createElement("a");
 
-		link.href = path.route;
+		// link.href = path.route;
 		link.textContent = path.name;
 		link.className = "nav-link";
 		link.addEventListener("click", (e) => {
