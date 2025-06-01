@@ -6,7 +6,7 @@ export const Work = () => {
 	const container = document.createElement("div");
 	const h1 = document.createElement("h1");
 	h1.classList.add("main-h1");
-	h1.textContent = "Acá están mis trabajos";
+	h1.textContent = "Galería con mi arte";
 
 	const galleryContainer = document.createElement('div')
 	galleryContainer.classList.add('gallery-container')

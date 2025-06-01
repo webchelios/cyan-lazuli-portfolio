@@ -7,8 +7,14 @@ export const content = {
 
 export const pieces = [
 	'el-saltador.jpg',
-	'pa-1-1.jpg', 'el-saltador.jpg',
-	'pa-1-1.jpg', 'el-saltador.jpg',
-	'pa-1-1.jpg', 'el-saltador.jpg',
-	'pa-1-1.jpg'
+	'pa-1-1.jpg',
+	'IMG_20250531_202937.jpg',
+	'IMG_20250531_203020.jpg',
+	'IMG_20250531_203125.jpg',
+	'IMG_20250531_203200.jpg',
+	'IMG_20250531_203228.jpg',
+	'IMG_20250531_203250.jpg',
+	'IMG_20250531_203405.jpg',
+	'IMG_20250531_203551.jpg',
+	'IMG_20250531_203633.jpg',
 ]
