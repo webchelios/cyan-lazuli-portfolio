@@ -8,7 +8,7 @@ export const Home = () => {
 
 	const h1 = document.createElement("h1");
 	h1.classList.add("main-h1");
-	h1.textContent = "Bienvenido 🥰";
+	h1.textContent = "Bienvenido";
 
 	const heroImageContainer = document.createElement("div");
 	heroImageContainer.classList.add("hero-img");
@@ -16,15 +16,15 @@ export const Home = () => {
 	const heroImage = document.createElement("img");
 	heroImage.setAttribute("src", "/images/ceci-vectorizada.jpg");
 
-	const heroHand = document.createElement('div')
-	heroHand.classList.add('hero-hand')
-	heroHand.innerText = '👋'
+	// const heroHand = document.createElement('div')
+	// heroHand.classList.add('hero-hand')
+	// heroHand.innerText = '👋'
 
-	const heroHearth = document.createElement('div')
-	heroHearth.classList.add('hero-hearth')
-	heroHearth.innerText = '❤️'
+	// const heroHearth = document.createElement('div')
+	// heroHearth.classList.add('hero-hearth')
+	// heroHearth.innerText = '🩵'
 
-	heroImageContainer.append(heroImage, heroHand, heroHearth);
+	heroImageContainer.append(heroImage, );
 
 	const heroText = document.createElement("p");
 	heroText.classList.add("hero-text");

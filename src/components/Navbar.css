@@ -8,7 +8,6 @@ nav {
 
 nav a {
 	text-decoration: none;
-	color: black;
 	cursor: pointer;
 }
 
@@ -27,7 +26,7 @@ nav ul {
 
 .navbar-brand {
 	font-size: 2rem;
-	color: #181818;
+	color: #03cdf5;
 	cursor: pointer;
 }
 
@@ -38,6 +37,7 @@ nav ul {
 .nav-item a {
 	display: block;
 }
+
 
 @media screen and (max-width: 765px) {
 	.menu-toggle {
