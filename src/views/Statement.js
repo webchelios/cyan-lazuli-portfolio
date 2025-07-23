@@ -1,5 +1,3 @@
-import './Statement.css'
-
 export const Statement = () => {
 	const container = document.createElement("div");
 	const h1 = document.createElement("h1");
